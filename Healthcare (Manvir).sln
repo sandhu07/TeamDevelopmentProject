@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Appointment Booking", "Appointment Booking\", "{24DF317C-74AF-4EAB-B63E-356DE5DEBE17}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{a60661a5-54e4-4a70-92b7-3a9604d9f440}|Class Library.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_54099"
+		Debug.AspNetCompiler.PhysicalPath = "Appointment Booking\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54099\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_54099"
+		Release.AspNetCompiler.PhysicalPath = "Appointment Booking\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54099\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "54099"
+		SlnRelativePath = "Appointment Booking\"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class Library", "ClassLibrary\Class Library.csproj", "{A60661A5-54E4-4A70-92B7-3A9604D9F440}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthCareTesting", "HealthCareTesting\HealthCareTesting.csproj", "{52BA11D8-7FFB-4AA8-B160-518806B451D9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24DF317C-74AF-4EAB-B63E-356DE5DEBE17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24DF317C-74AF-4EAB-B63E-356DE5DEBE17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24DF317C-74AF-4EAB-B63E-356DE5DEBE17}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{24DF317C-74AF-4EAB-B63E-356DE5DEBE17}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{A60661A5-54E4-4A70-92B7-3A9604D9F440}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A60661A5-54E4-4A70-92B7-3A9604D9F440}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A60661A5-54E4-4A70-92B7-3A9604D9F440}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A60661A5-54E4-4A70-92B7-3A9604D9F440}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52BA11D8-7FFB-4AA8-B160-518806B451D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52BA11D8-7FFB-4AA8-B160-518806B451D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52BA11D8-7FFB-4AA8-B160-518806B451D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52BA11D8-7FFB-4AA8-B160-518806B451D9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,10 @@
+﻿body, td, p {
+    font-size: 10pt;
+    font-family: Arial;
+    height: 85px;
+    width: 1000px;
+}
+.header {
+    font-size: 14pt;
+    font-weight: bold;
+}

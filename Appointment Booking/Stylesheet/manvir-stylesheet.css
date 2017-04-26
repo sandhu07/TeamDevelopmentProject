@@ -1,0 +1,66 @@
+﻿p, body, td { font-family: Tahoma, Arial, Sans-Serif; font-size: 10pt;
+    height: 31px;
+}
+body { padding: 0px; margin: 0px; background-color: #ffffff; }
+a { color: #1155a3; }
+
+/* COMMON */
+.hidden { display: none; }
+.padded { padding: 10px; }
+.navigation { margin: 10px 0px 10px 0px; }
+
+/* form */
+#f input[type="text"] { width: 170px; }
+
+/* COLUMNS */
+#container { width:100% }
+#left { float:left; width: 180px; margin-left: 2px; }
+#content { margin-left: 200px;}
+#content > div { width:99% }
+
+/* LAYOUT */
+#header { background: #60b0fc; padding-left: 10px;}
+#header .bg-help { background: #60b0fc; padding:1px 0; width:100%; min-height:80px;}
+	
+
+#logo { font-size:200%; color:#fff; margin:10px 0 0; font-weight:bold; line-height:1.3;
+    height: 51px;
+}
+
+#container { padding-top: 20px; }
+
+/* inner */
+.daypilot-left { float: left; width: 100px; margin-bottom: 10px; }
+.daypilot-main { margin-left:100px; }
+
+/* button */
+.css3button {
+	font-family: Arial, Helvetica, sans-serif;
+
+
+
+	background: -moz-linear-gradient(
+		top,
+		#a8dc18 0%,
+		#8fc300);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#a8dc18),
+		to(#8fc300));
+
+}
+.footer{
+    position:relative;
+    width:100%;
+    background-color:#60b0fc;
+    color:white;
+}
+
+
+#DayPilotCalendar1 .calendar_default_event_bar, #DayPilotCalendar1 .calendar_default_event_bar_inner {
+    width: 10px;
+}
+
+#DayPilotCalendar1 .calendar_default_event_inner {
+    padding-left: 12px;
+}

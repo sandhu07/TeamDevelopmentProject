@@ -1,0 +1,50 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="SiteMaster" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <title>Master Page</title>
+    <link href="~/Stylesheet/manvir-stylesheet.css" rel="stylesheet" type="text/css" />
+    <script src="Scripts/healthcare.js"></script>
+
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server"></asp:ContentPlaceHolder>
+</head>
+<body>
+    <form runat="server">
+        <div class="page">
+            <div id="header">
+                <div class="bg-help">
+                    <div class="inBox">
+                        <h1 id="logo">Health Care Appointment Booking</h1>
+                        <hr class="hidden" />
+                    </div>
+                </div>
+            </div>
+            <div class="main">
+                <div class="navigation">
+                    <a href="PatientLogin.aspx">HOME PAGE</a>
+                    |
+                <a href="AboutUs.aspx">ABOUT US</a>
+                    |
+                <a href="PatientOptions.aspx">ADD APPOINTMENT</a>
+                    |
+                <a href="PatientBookings.aspx">VIEW MY BOOKINGS</a>
+                    |
+                <a href="Doctor.aspx">STAFF PORTAL ACCESS</a>
+                    |
+                <a href="ContactUs.aspx">CONTACT US</a>
+                </div>
+                <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+            </div>
+            <div class="clear">
+            </div>
+        </div>
+        <div class="footer">
+            <footer>
+
+                <p> <%: DateTime.Now.Year %> - CREATED BY MANVIR SANDHU &copy;</p>
+            </footer>
+        </div>
+    </form>
+</body>
+</html>
