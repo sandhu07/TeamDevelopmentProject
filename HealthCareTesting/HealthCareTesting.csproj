@@ -56,6 +56,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="tstAddAmendCancel.cs" />
     <Compile Include="tstAppointment.cs" />
+    <Compile Include="tstGitTest.cs" />
     <Compile Include="tstGPCompany.cs" />
     <Compile Include="tstGPCompanyCollection.cs" />
     <Compile Include="tstLogin.cs" />
